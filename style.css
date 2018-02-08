@@ -1,0 +1,86 @@
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+header {
+    background-color: lightgray;
+}
+
+body {
+    background: black;
+
+}
+
+.event {
+    position: relative;
+    width: 100%;
+}
+h2 {
+    position: fixed;
+    top: 200px;
+    left: 30%;
+    width: 100%;
+    
+}
+
+footer {
+    background-color:ghostwhite;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.nav_menu {
+    list-style: none;
+    overflow: hidden;
+    background-color:ghostwhite;
+}
+
+
+.nav_menu a {
+    float: left;
+    display: block;
+    color:lightseagreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-github {
+    background: gray;
+    color: black;
+}
